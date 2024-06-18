@@ -1,0 +1,13 @@
+.container {
+  border: 5px solid #8e44ad;
+  background-color: #f4ecf7;
+  display: grid;
+  grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+  grid-template-rows: repeat(3, auto);
+}
+
+.item {
+  border: 5px solid #c0392b;
+  background-color: #f9ebea;
+  font-size: 4rem;
+}
